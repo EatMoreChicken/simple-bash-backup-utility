@@ -21,4 +21,4 @@ A simple bash script used to create and rotate backups.
 - [ ] Source config files for file-based configs (Users can use this instead of flags)
 - [ ] `--initialize` flag to check for dependencies
 - [ ] `--dry-run` flag to run a test backup without writing the backup
-- [ ] Add warnings when backing up large files (Ex. A warning for if a large `.log` file was tarred incase the user isn't aware of that.)
+- [ ] Add warnings when backing up large files (Ex. A warning for if a large `.log` file was tarred incase the user isn't aware of that)
