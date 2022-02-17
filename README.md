@@ -1,9 +1,6 @@
 # 🗃 Simple Bash Backup Utility ⚒
 A simple bash script used to create and rotate backups.
 
-## Features
-### ✔ Complete
-
 ### ⚒ To-Do
 - [ ] Tar `source` directory to a `destination` directory
 - [ ] Flag to rotate backups
@@ -14,7 +11,8 @@ A simple bash script used to create and rotate backups.
 	- [ ] `--include-file` flag to only backup files matching a pattern
 	- [ ] `--exclude-dir` flag to exclude directories matching a pattern from the backup
 	- [ ] `--excluce-file` flag to exclude files matching a pattern from the backup
-- [ ] Logging
+- [x] Basic Logging
+- [ ] Advanced Logging
 	- [ ] Logging format
 	- [ ] Logging levels
 	- [ ] Log export
@@ -22,3 +20,4 @@ A simple bash script used to create and rotate backups.
 - [ ] `--initialize` flag to check for dependencies
 - [ ] `--dry-run` flag to run a test backup without writing the backup
 - [ ] Add warnings when backing up large files (Ex. A warning for if a large `.log` file was tarred incase the user isn't aware of that.)
+- [ ] Handle backup of files with weird names (Ex. Spaces and special characters)
